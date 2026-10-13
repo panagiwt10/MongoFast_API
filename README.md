@@ -47,7 +47,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## setting MongoDB
+## Setting MongoDB
 Δημιούργησε αρχείο `.env` στον βασικό φάκελο του project και πρόσθεσε τα στοιχεία σύνδεσης του MongoDB Atlas:
 
 ```bash
