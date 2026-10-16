@@ -1,8 +1,8 @@
-# 🍽️ Foodie Matchmaking API
+# Foodie Matchmaking API
 
 Ένα απλό REST API για αναζήτηση εστιατορίων και σύγκριση προτιμήσεων χρηστών. Είναι φτιαγμένο με **FastAPI** και **MongoDB Atlas**.
 
-## ✨ Τι κάνει
+## Τι κάνει
 
 - Εμφανίζει εστιατόρια με σελιδοποίηση.
 - Αναζητά εστιατόρια με βάση το όνομα, την περιοχή (`borough`) ή την κουζίνα (`cuisine`).
@@ -10,11 +10,11 @@
 - Υπολογίζει το ποσοστό ταιριάσματος δύο χρηστών από τα εστιατόρια που έχουν κάνει like.
 - Εμφανίζει τα κοινά αγαπημένα εστιατόρια των δύο χρηστών.
 
-## 🛠️ Τεχνολογίες
+## Τεχνολογίες
 
 Python · FastAPI · MongoDB Atlas · PyMongo · Pydantic · Uvicorn
 
-## 🚀 Εγκατάσταση και εκτέλεση
+## Εγκατάσταση και εκτέλεση
 
 **1. Κατέβασε το project και μπες στον φάκελο `application`:**
 
@@ -64,7 +64,7 @@ uvicorn main:app --reload
 
 Άνοιξε το **http://127.0.0.1:8000/docs** για να δοκιμάσεις τα endpoints από το Swagger UI.
 
-## 📌 Endpoints
+## Endpoints
 
 | Method | Endpoint | Περιγραφή |
 | --- | --- | --- |
@@ -105,7 +105,7 @@ GET /matchmaking/?user1=nikos&user2=panos
 
 Το αποτέλεσμα περιλαμβάνει ποσοστό ταιριάσματος (`match_percentage`) και τη λίστα των κοινών εστιατορίων (`common_restaurants`). Το ποσοστό βασίζεται στα κοινά likes (cosine similarity).
 
-## 📁 Δομή project
+## Δομή project
 
 ```text
 application/
@@ -120,7 +120,7 @@ application/
     └── matchmaking.py      # Υπολογισμός ταιριάσματος
 ```
 
-## 📖 API Documentation
+## API Documentation
 
 Όσο τρέχει ο server, η διαδραστική τεκμηρίωση είναι διαθέσιμη στο:
 
